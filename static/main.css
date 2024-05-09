@@ -1,0 +1,24 @@
+h2 {
+    color: darkgrey;
+    text-align: center;
+    font-size: 40px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 8px 8px;
+    margin: 10px 0;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: Aqua;
+    padding: 12 px 12 px;
+    border: none;
+    border-radius: 6px;
+}
+
+body {
+    background-color: Azure;
+    padding: 20px;
+}

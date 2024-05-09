@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="static/main.css">
+</head>
+<body>
+<h2>This is your personal Calorie Calculator</h2>
+<p>Fill in your information and get the amount of calories you need to eat today</p>
+<form action="/calorie_page" method="post">
+    {{calorie_form.weight.label}} {{calorie_form.weight}}
+    <br>
+    {{calorie_form.height.label}} {{calorie_form.height}}
+    <br>
+    {{calorie_form.age.label}} {{calorie_form.age}}
+    <br>
+    {{calorie_form.country.label}} {{calorie_form.country}}
+    <br>
+    {{calorie_form.city.label}} {{calorie_form.city}}
+    <hr>
+    {{calorie_form.button}}
+    <br>
+    {% if result %}
+    You need to eat {{calories}}
+    {% endif %}
+</form>
+</body>
+</html>

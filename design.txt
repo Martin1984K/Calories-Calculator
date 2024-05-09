@@ -1,0 +1,15 @@
+Title: Calories Calculator
+Description: A web app that calculates a person needs depending on the person height, weight,
+age and location (city and country. It scrapes the temperature of a person´s location and then
+calculates how many calories the user needs.
+Objects: Calorie:
+            - Height
+            - Weight
+            - Age
+            - Temperature
+            - calculate()
+
+         Temperature:
+            - City
+            - Country
+            - get()
